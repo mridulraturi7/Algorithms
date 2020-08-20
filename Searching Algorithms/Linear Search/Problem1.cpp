@@ -1,5 +1,8 @@
 /*
     Last Occurrence
+    This problem is taken from HackerEarth.
+    Problem Statement - https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/
+    Difficulty - Easy 
 */
 
 #include<iostream>
