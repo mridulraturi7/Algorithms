@@ -1,5 +1,8 @@
 /*
     Easy Sum Set Problem.
+    This problem is taken from HacerEarth.
+    Problem Statement - https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/easy-sum-set-problem-7e6841ca/
+    Difficulty - Very Easy
 */
 
 #include<iostream>
