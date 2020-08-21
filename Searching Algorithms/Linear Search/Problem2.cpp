@@ -7,7 +7,6 @@
 using namespace std;
 
 bool linearSearch(int [], int, int);
-void removeDuplicates(int [], int n);
 void printArray(int [], int n);
 
 int main()
@@ -84,8 +83,7 @@ int main()
         }
     }
 
-    //remove duplicates
-    removeDuplicates(setB, k);
+    printArray(setB, k);
 
     return 0;
 }
@@ -100,27 +98,9 @@ bool linearSearch(int array[], int n, int x)
     return false;
 }
 
-void removeDuplicates(int array[], int n)
-{
-    int output[100];
-    int j = 0;
-    for(int i = 0; i < n - 1; i++)
-    {
-        if(array[i] != array[i + 1])
-        {
-            output[j] = array[i];
-            j++;
-        }
-    }
-
-    output[j] = array[n - 1];
-
-    printArray(output, j);
-}
-
 void printArray(int output[], int n)
 {
-    for(int i = 0; i <= n; i++)
+    for(int i = 0; i < n; i++)
     {
         cout<<output[i]<<" ";
     }
