@@ -21,9 +21,11 @@ int binarySearch(int array[], int n, int x)
         if(array[mid] == x)
             return mid;
 
+        //If the middle element is less than x, it means that x must lie in the right side of array after mid element.
         else if(array[mid] < x)
             begin = mid + 1;
 
+        //If the middle element is greater than x, it means that x must lie in the left side of the array before mid element. 
         else
             end = mid - 1;
     }
