@@ -1,5 +1,5 @@
 /*
-    Binary Search Algorithm.
+    Binary Search Algorithm (Recursive Implementation).
     Binary Search is the most widely used searching algorithm.
     It follows divide and conquer approach.
     Binary Search Algorithm requires set of elements in sorted order.
