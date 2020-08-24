@@ -1,5 +1,8 @@
 /*
     Bishu and Soldiers.
+    This problem is taken from HackerEarth.
+    Problem Statement - https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/bishu-and-soldiers/
+    Difficulty - Easy
 */
 
 #include<iostream>
