@@ -1,5 +1,8 @@
 /*
     Rank it.
+    This problem is taken from HackerEarth.
+    Problem Statement - https://www.hackerearth.com/practice/algorithms/searching/binary-search/tutorial/
+    Difficulty - Easy
 */
 
 #include<iostream>
