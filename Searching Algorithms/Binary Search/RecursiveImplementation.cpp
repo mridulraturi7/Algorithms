@@ -1,5 +1,9 @@
 /*
     Binary Search Algorithm.
+    Binary Search is the most widely used searching algorithm.
+    It follows divide and conquer approach.
+    Binary Search Algorithm requires set of elements in sorted order.
+    Time Complexity = Theta(logn)
 */
 
 #include<iostream>
