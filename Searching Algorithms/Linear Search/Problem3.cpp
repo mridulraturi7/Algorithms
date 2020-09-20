@@ -55,6 +55,8 @@ int main()
                 cout<<x<<" ";
             }
         }
+
+        cout<<endl;
         
     }
 }
