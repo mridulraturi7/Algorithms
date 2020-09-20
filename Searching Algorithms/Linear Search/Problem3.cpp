@@ -56,6 +56,5 @@ int main()
         }
 
         cout<<endl;
-        
     }
 }
