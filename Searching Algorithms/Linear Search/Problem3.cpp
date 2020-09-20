@@ -1,0 +1,3 @@
+/*
+    Value equal to index value.
+*/
