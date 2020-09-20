@@ -1,5 +1,8 @@
 /*
     Second Largest.
+    This problem is taken from GeeksforGeeks.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/second-largest3735/1
+    Difficulty - School
 */
 
 #include<iostream>
