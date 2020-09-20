@@ -1,6 +1,6 @@
 /*
     Second Largest.
-    This problem is taken from GeeksforGeeks.
+    This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/second-largest3735/1
     Difficulty - School
 */
