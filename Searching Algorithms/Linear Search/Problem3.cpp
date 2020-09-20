@@ -2,7 +2,7 @@
     Value equal to index value.
     This problem is taken from GeeksforGeeks.
     Problem Statement - https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1
-    Difficulty - Very Easy
+    Difficulty - School
 */
 
 #include<iostream>
