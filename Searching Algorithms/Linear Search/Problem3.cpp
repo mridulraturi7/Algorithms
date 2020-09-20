@@ -20,7 +20,6 @@ class Solution
                     vec.push_back(array[i]);
                 }
             }
-
             return vec;
         }
 };
