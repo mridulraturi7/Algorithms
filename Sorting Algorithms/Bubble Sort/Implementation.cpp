@@ -56,7 +56,7 @@ int main()
 
     cout<<"Performing Bubble Sort......"<<endl;
 
-    cout<<"Array after performing bubble sort: ";
+    cout<<"Array after performing Bubble Sort: ";
     for(int i = 0; i < n; i++)
     {
         cout<<array[i]<<" ";
