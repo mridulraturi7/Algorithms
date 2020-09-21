@@ -1,5 +1,12 @@
 /*
     Bubble Sort (Optimized Implementation).
+    --Bubble Sort is the simplest sorting algorithm that works by swapping the adjacent elements
+    --if they are in wrong order.
+
+    Time Complexity Analysis: 
+        Worst Case = O(n^2)
+        Average Case = O(n^2)
+        Best Case = O(n) -- If the input array is already sorted.
 */
 
 #include<iostream>
