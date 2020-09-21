@@ -1,5 +1,10 @@
 /*
     Bubble Sort.
+    --Bubble Sort is the simplest sorting algorithm that works by swapping the adjacent elements
+    --if they are in wrong order.
+
+    Time Complexity:
+        Worst Case & Average Case = O(n ^ 2); 
 */
 
 #include<iostream>
