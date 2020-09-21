@@ -38,9 +38,13 @@ int main()
 
     bubbleSort(array, n);
 
+    cout<<"Performing Bubble Sort......"<<endl;
+
     cout<<"Array after performing bubble sort: ";
     for(int i = 0; i < n; i++)
     {
         cout<<array[i]<<" ";
     }
+
+    return 0;
 }
