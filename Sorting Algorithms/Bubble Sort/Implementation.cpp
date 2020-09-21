@@ -4,7 +4,12 @@
     --if they are in wrong order.
 
     Time Complexity:
-        Worst Case & Average Case = O(n ^ 2); 
+        Worst Case = O(n^2)
+        Average Case = O(n^2)
+        Best Case = O(n^2)
+
+    Bubble Sort is In-Place Sorting Algorithm.
+    Bubble Sort is Stable Sorting Algorithm.
 */
 
 #include<iostream>
