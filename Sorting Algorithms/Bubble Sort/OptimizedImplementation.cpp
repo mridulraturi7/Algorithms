@@ -8,6 +8,9 @@
         Average Case = O(n^2)
         Best Case = O(n) -- If the input array is already sorted.
 
+    Space Complexity Analysis:
+        Auxiliary Space = O(1)
+
     Bubble Sort is In-Place Sorting Algorithm.
     Bubble Sort is Stable Sorting Algorithm.
 */
