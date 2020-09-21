@@ -7,6 +7,9 @@
         Worst Case = O(n^2)
         Average Case = O(n^2)
         Best Case = O(n) -- If the input array is already sorted.
+
+    Bubble Sort is In-Place Sorting Algorithm.
+    Bubble Sort is Stable Sorting Algorithm.
 */
 
 #include<iostream>
