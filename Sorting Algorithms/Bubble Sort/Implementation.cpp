@@ -10,6 +10,9 @@
 
     Bubble Sort is In-Place Sorting Algorithm.
     Bubble Sort is Stable Sorting Algorithm.
+
+    --The following code will always run O(n^2) times even if the array is sorted.
+    --We can optimize it by stopping the algorithm is the inner loop doesn't cause any swap operation.
 */
 
 #include<iostream>
