@@ -4,12 +4,15 @@
     --if they are in wrong order.
 
     Time Complexity:
-        Worst Case = O(n^2)
-        Average Case = O(n^2)
-        Best Case = O(n^2)
+        Worst Case : O(n^2)
+        Average Case : O(n^2)
+        Best Case : O(n^2)
 
     Space Complexity Analysis:
         Auxiliary Space = O(1)
+
+    Bubble Sort is In-Place Sorting Algorithm.
+    Bubble Sort is Stable Sorting Algorithm.
 
     --The following code will always run O(n^2) times even if the array is sorted.
     --We can optimize it by stopping the algorithm is the inner loop doesn't cause any swap operation.
