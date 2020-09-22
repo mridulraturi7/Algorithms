@@ -60,6 +60,8 @@ int main()
 
     bubbleSort(array, n);
 
+    cout<<"Performing Bubble Sort......"<<endl;
+
     cout<<"Array after performing Bubble Sort: ";
     for(int i = 0; i < n; i++)
     {
