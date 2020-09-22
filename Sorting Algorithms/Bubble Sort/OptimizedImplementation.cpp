@@ -4,9 +4,9 @@
     --if they are in wrong order.
 
     Time Complexity Analysis: 
-        Worst Case = O(n^2)
-        Average Case = O(n^2)
-        Best Case = O(n) -- If the input array is already sorted.
+        Worst Case : O(n^2)
+        Average Case : O(n^2)
+        Best Case : O(n) -- If the input array is already sorted.
 
     Space Complexity Analysis:
         Auxiliary Space = O(1)
