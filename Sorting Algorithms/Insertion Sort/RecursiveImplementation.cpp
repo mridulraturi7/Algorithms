@@ -1,5 +1,7 @@
 /*
-    Insertion Sort (Recursive Implementation)
+    Insertion Sort (Recursive Implementation).
+
+    Recursive Implementation doesn't have any performance advantage over iterative implementation. 
 */
 
 #include<iostream>
