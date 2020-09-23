@@ -8,9 +8,9 @@
                 Move the elements one step up to make the space for the key element.
 
     Time Complexity Analysis:
-        Best Case: O(n) -- when the array is already sorted.
+        Best Case:    O(n) -- when the array is already sorted.
         Average Case: O(n*n)
-        Worst Case: O(n*n)
+        Worst Case:   O(n*n)
 
     Space Complexity Analysis:
         Auxiliary Space: O(1)
