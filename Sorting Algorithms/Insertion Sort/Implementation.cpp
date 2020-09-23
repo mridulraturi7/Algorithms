@@ -1,5 +1,11 @@
 /*
     Insertion Sort.
+
+    Algorithm:
+        Step 1: Iterate from array[i] to array[n - 1] over the array.
+        Step 2: Compare the current element(key) with its predecessor.
+        Step 3: If the key is smaller than predecessor element, compare it with the elements before.
+                Move the elements one step up to make the space for the key element.
 */
 
 #include<iostream>
