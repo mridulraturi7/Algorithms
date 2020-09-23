@@ -14,6 +14,9 @@
 
     Space Complexity Analysis:
         Auxiliary Space: O(1)
+
+    Insertion Sort is an "In - Place" Sorting Algorithm.
+    Insertion Sort is a "Stable Algorithm".
 */
 
 #include<iostream>
