@@ -8,6 +8,13 @@
         Best Case     : O(n*n)
         Average Case  : O(n*n)
         Worst Case    : O(n*n)
+
+    Space Complexity Analysis:
+        Auxiliary Space: O(1)
+
+    Selection Sort is an "In-Place" Sorting Algorithm.
+
+    Selection Sort is not stable by default, however it can be made deafult.
 */
 
 #include<iostream>
