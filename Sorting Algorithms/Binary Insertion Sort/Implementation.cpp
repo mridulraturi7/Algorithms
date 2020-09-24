@@ -1,5 +1,10 @@
 /*
     Binary Insertion Sort.
+
+    We can use binary search to reduce the number of comparisons in normal Insertion Sort.
+
+    Binary Insertion Sort makes use of binary search to find the proper location to insert 
+    the key element at each iteration.
 */
 
 #include<iostream>
