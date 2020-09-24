@@ -34,6 +34,7 @@ void selectionSort(int array[], int n)
             }
         }
 
+        //Placing the minimum element at the beginning of unsorted array.
         int temp = array[min_index];
         array[min_index] = array[i];
         array[i] = temp;
