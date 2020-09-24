@@ -5,6 +5,10 @@
 
     Binary Insertion Sort makes use of binary search to find the proper location to insert 
     the key element at each iteration.
+
+    Time Complexity: O(n*n)
+
+    Space Complexity: O(1)
 */
 
 #include<iostream>
