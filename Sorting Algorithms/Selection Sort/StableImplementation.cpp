@@ -1,5 +1,13 @@
 /*
     Stable Selection Sort.
+
+    Selection Sort can be made stable if instead of swapping, the minimum element is placed in its
+    position without swapping like in insertion sort.
+
+    Time Complexity Analysis:
+        Worst Case    : O(n*n)
+        Average Case  : O(n*n)
+        Best Case     : O(n*n)
 */
 
 #include<iostream>
