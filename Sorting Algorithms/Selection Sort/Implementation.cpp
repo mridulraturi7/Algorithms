@@ -1,5 +1,10 @@
 /*
     Selection Sort.
+
+    This algorithm sorts an array by repeatedly finding the minimum element from the unsorted array
+    and placing it at the beginning.
+
+    
 */
 
 #include<iostream>
