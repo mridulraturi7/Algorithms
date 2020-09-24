@@ -4,7 +4,10 @@
     This algorithm sorts an array by repeatedly finding the minimum element from the unsorted array
     and placing it at the beginning.
 
-    
+    Time Complexity Analysis:
+        Best Case     : O(n*n)
+        Average Case  : O(n*n)
+        Worst Case    : O(n*n)
 */
 
 #include<iostream>
