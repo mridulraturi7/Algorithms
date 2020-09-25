@@ -52,7 +52,7 @@ int countZeros(int **A, int n)
             i--;
 
             if(i < 0)
-                break;
+                return zeros;
         }
 
         zeros += (i + 1);
