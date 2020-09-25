@@ -3,6 +3,8 @@
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1/?category[]=Searching&difficulty[]=-1&page=1&query=category[]Searchingdifficulty[]-1page1
     Difficulty - Basic
+
+    Required Time Complexity - O(logn)
 */
 
 #include<iostream>
