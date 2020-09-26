@@ -20,7 +20,7 @@ long long int floorSqrt(long long int x)
         return x;
     }
 
-    long long int left = 1, right = x, sq;
+    long long int left = 1, right = x / 2, sq;
 
     while(left <= right)
     {
