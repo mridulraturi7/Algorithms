@@ -8,6 +8,11 @@ using namespace std;
 
 long long int floorSqrt(long long int x)
 {
+    if(x == 0 || x == 1)
+    {
+        return x;
+    }
+
     long long int left = 1, right = x, sq;
 
     while(left <= right)
