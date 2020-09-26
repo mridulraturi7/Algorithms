@@ -3,6 +3,8 @@
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/square-root/1/?category[]=Searching&problemStatus=unsolved&difficulty[]=-1&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]-1page1
     Difficulty - Basic
+
+    Solution using library functions.
 */
 
 #include<iostream>
