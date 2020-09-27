@@ -3,6 +3,8 @@
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1/?category[]=Searching&problemStatus=unsolved&difficulty[]=-1&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]-1page1
     Difficulty - Basic
+
+    Required Time Complexity: O(logn)
 */
 
 #include<iostream>
