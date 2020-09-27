@@ -13,10 +13,11 @@ int main()
 
     while(testCase-- != 0)
     {
-        int n, b;
+        int n;
+        long long int b;
         cin>>n>>b;
 
-        int *array = new int[n];
+        long long int *array = new long long int[n];
         for(int i = 0; i < n; i++)
         {
             cin>>array[i];
