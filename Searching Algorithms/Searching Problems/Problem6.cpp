@@ -1,5 +1,8 @@
 /*
     Doubling the Value.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/doubling-the-value/0/?category[]=Searching&problemStatus=unsolved&difficulty[]=-1&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
