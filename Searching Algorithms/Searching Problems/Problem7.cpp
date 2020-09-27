@@ -16,24 +16,40 @@ class Solution
             while(low <= high)
             {
                 int mid = (low + high) / 2;
-                int element_left = (array[mid] == array[mid - 1]) ? (high - mid + 1) : (high - mid);
-                int element_right = (array[mid] == array[mid + 1]) ? (high - mid + 1) : (high - mid);
 
-                if((array[mid] != array[mid - 1]) && (array[mid] != array[mid + 1]))
+                if(low == high)
                 {
-                    res = array[mid];
+                    res = array[low];
                     break;
                 }
-
-                else if((element_left % 2) != 0)
+                
+                if((mid % 2) == 0)
                 {
-                    high = mid - 1;
+                    if(array[mid] == array[mid + 1])
+                    {
+                        low = mid + 2;
+                    }
+
+                    else
+                    {
+                        high = mid;
+                    }
                 }
 
                 else
                 {
-                    low = mid + 1;
+                    if(array[mid] == array[mid - 1])
+                    {
+                        low = mid + 1;
+                    }
+
+                    else
+                    {
+                        high = mid - 1;
+                    }
+                    
                 }
+                
             }
             return res;
         }
