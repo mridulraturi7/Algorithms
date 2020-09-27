@@ -22,16 +22,15 @@ int main()
             cin>>array[i];
         }
 
-        int final_value = b;
         for(int i = 0; i < n; i++)
         {
-            if(array[i] == final_value)
+            if(array[i] == b)
             {
-                final_value *= 2;
+                b *= 2;
             }
         }
 
-        cout<<final_value<<endl;
+        cout<<b<<endl;
     }
 
     return 0;
