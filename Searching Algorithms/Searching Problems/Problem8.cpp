@@ -4,7 +4,7 @@
     Problem Statement - https://practice.geeksforgeeks.org/problems/who-will-win/0/?category[]=Searching&problemStatus=unsolved&difficulty[]=-1&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]-1page1
     Difficulty - Basic
 
-    Expected Time Complexity - O(logn)
+    Required Time Complexity - O(logn)
 */
 
 #include<iostream>
