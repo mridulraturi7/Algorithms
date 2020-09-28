@@ -53,4 +53,6 @@ int main()
 
         cout<<found<<endl;
     }
+
+    return 0;
 }
