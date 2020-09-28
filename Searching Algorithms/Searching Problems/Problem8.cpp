@@ -1,5 +1,8 @@
 /*
     Searching an element in a Sorted Array.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/who-will-win/0/?category[]=Searching&problemStatus=unsolved&difficulty[]=-1&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
