@@ -5,6 +5,7 @@
     Difficulty - Basic
 
     Required Time Complexity - O(logn)
+    Required Space Complexity - O(1)
 */
 
 #include<iostream>
