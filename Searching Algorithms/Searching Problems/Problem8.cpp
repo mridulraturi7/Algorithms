@@ -14,6 +14,7 @@ using namespace std;
 
 int binarySearch(int array[], int n, int k)
 {
+    //Applying Binary Search Algorithm
     int low = 0, high = n - 1;
     while(low <= high)
     {
