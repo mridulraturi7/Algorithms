@@ -3,6 +3,9 @@
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1/?category[]=Searching&difficulty[]=-1&page=1&query=category[]Searchingdifficulty[]-1page1
     Difficulty - Basic
+
+    Required Time Complexity - O(n*n)
+    Required Space Complexity - O(1)
 */
 
 #include<iostream>
