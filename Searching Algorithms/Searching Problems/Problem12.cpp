@@ -1,5 +1,8 @@
 /*
     Remove consonants from a string.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/c-program-to-remove-consonants-from-a-string/0/?category[]=Searching&problemStatus=unsolved&difficulty[]=-1&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
