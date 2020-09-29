@@ -2,7 +2,7 @@
     Search an element in an Array.
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/search-an-element-in-an-array/0/?category[]=Searching&difficulty[]=-1&page=1&query=category[]Searchingdifficulty[]-1page1
-    Difficulty - Basic.
+    Difficulty - Basic
 */
 
 #include<iostream>
