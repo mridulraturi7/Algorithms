@@ -20,14 +20,27 @@ int main()
         string str;
         cin.ignore();
         getline(cin, str);
+        
+        int vowels = 0;
 
         for(int i = 0; i < str.length(); i++)
         {
             if((str[i] == 'a' || str[i] == 'A') || (str[i] == 'e' || str[i] == 'E') || (str[i] == 'i' || str[i] == 'I') 
-            || (str[i] == 'o' || str[i] == 'O') || (str[i] == 'u' || str[i] == 'U') || str[i] == ' ')
+            || (str[i] == 'o' || str[i] == 'O') || (str[i] == 'u' || str[i] == 'U'))
+            {
+                vowels = 1;
+                cout<<str[i];
+            }
+            
+            else if(str[i] == ' ')
             {
                 cout<<str[i];
             }
+        }
+        
+        if(vowels == 0)
+        {
+            cout<<"No Vowel";
         }
 
         cout<<endl;
