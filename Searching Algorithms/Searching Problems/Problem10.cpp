@@ -17,13 +17,17 @@ int main()
         string s;
         cin>>s;
 
+        int index = -1;
+
         for(int i = (s.length() - 1); i >= 0; i--)
         {
             if(s[i] == '1')
             {
-                cout<<i<<endl;
+                index = i;
                 break;
             }
         }
+
+        cout<<index<<endl;
     }
 }
