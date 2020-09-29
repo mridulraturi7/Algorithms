@@ -1,5 +1,8 @@
 /*
     Last Index of One.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/last-index-of-1/0/?category[]=Searching&difficulty[]=-1&page=1&query=category[]Searchingdifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
