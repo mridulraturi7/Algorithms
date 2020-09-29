@@ -14,11 +14,11 @@ int main()
 {
     int testCase;
     cin>>testCase;
+    cin.ignore();
 
     while(testCase-- != 0)
     {
         string str;
-        cin.ignore();
         getline(cin, str);
         
         int vowels = 0;
