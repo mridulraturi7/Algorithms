@@ -1,5 +1,8 @@
 /*
     Missing Number in an Array.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/missing-number-in-array/0/?category[]=Searching&difficulty[]=-1&page=1&query=category[]Searchingdifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
