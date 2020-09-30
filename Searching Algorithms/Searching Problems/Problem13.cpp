@@ -1,5 +1,8 @@
 /*
     Elements in the Range.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/elements-in-the-range2834/1/?category[]=Searching&difficulty[]=-1&page=1&query=category[]Searchingdifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
