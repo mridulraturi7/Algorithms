@@ -41,4 +41,6 @@ int main()
         Solution s;
         cout<<s.missingNumber(array, n)<<endl;
     }
+
+    return 0;
 }
