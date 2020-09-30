@@ -19,6 +19,7 @@ class Solution
                     if(array[j] == i)
                     {
                         count++;
+                        break;
                     }
                 }
             }
