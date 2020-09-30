@@ -43,11 +43,11 @@ int main()
 
         Solution s;
         auto ans = s.valueEqualToIndex(array, n);
+
         if(ans.empty())
         {
             cout<<"Not Found";
         }
-
         else
         {
             for(int x : ans)
@@ -57,6 +57,7 @@ int main()
         }
 
         cout<<endl;
-        
     }
+
+    return 0;
 }
