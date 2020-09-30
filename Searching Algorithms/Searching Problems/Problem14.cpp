@@ -13,7 +13,7 @@ class Solution
         {
             int total_sum, current_sum = 0;
             total_sum = (n * (n + 1)) / 2;
-            for(int i = 0; i < n; i++)
+            for(int i = 0; i < n - 1; i++)
             {
                 current_sum += array[i];
             }
@@ -32,8 +32,8 @@ int main()
         int n;
         cin>>n;
 
-        int *array = new int[n];
-        for(int i = 0; i < n; i++)
+        int *array = new int[n - 1];
+        for(int i = 0; i < n - 1; i++)
         {
             cin>>array[i];
         }
