@@ -1,5 +1,8 @@
 /*
     Maximum Value in a Bitonic Array.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/maximum-value-in-a-bitonic-array3001/1/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
+    Difficulty - Easy
 */
 
 #include<iostream>
