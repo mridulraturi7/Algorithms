@@ -11,6 +11,16 @@ class Solution
     public:
         int countZeroes(int array[], int n)
         {
+            if(arr[0] == 0)
+            {
+                return n;
+            }
+        
+            else if(arr[n - 1] == 1)
+            {
+                return 0;
+            }
+
             int left = 0, right = n - 1;
             while(left <= right)
             {
