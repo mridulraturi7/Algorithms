@@ -26,7 +26,7 @@ class Solution
             {
                 int mid = (l + r) / 2;
 
-                if(array[mid] >= array[mid - 1] && array[mid] >= array[mid + 1])
+                if((array[mid] >= array[mid - 1]) && (array[mid] >= array[mid + 1]))
                 {
                     res = array[mid];
                     break;
