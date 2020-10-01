@@ -45,7 +45,6 @@ class Solution
                     r = mid - 1;
                 }
             }
-
             return res;
         }
 };
@@ -67,7 +66,6 @@ int main()
         }
 
         Solution s;
-
         cout<<s.findMaximum(array, n)<<endl;
     }
 
