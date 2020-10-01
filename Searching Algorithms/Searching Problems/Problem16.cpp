@@ -11,12 +11,12 @@ class Solution
     public:
         int countZeroes(int array[], int n)
         {
-            if(arr[0] == 0)
+            if(array[0] == 0)
             {
                 return n;
             }
         
-            else if(arr[n - 1] == 1)
+            else if(array[n - 1] == 1)
             {
                 return 0;
             }
@@ -26,7 +26,7 @@ class Solution
             {
                 int mid = (left + right) / 2;
 
-                if((left == right) && (array[mid] == 0))
+                if((array[mid] == 0) && (array[mid - 1] != 0))
                 {
                     return (n - mid);
                 }
