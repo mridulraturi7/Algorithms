@@ -18,7 +18,7 @@ class Solution
 
                 if((left == right) && (array[mid] == 0))
                 {
-                    return (n - mid + 1);
+                    return (n - mid);
                 }
 
                 else if(array[mid] == 1)
