@@ -21,7 +21,7 @@ class Solution
                 return -1;
             }
 
-            int l = 1, r = n - 2;
+            int l = 0, r = n - 1;
             while(l <= r)
             {
                 int mid = (l + r) / 2;
