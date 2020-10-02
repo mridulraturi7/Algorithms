@@ -1,5 +1,8 @@
 /*
     Peak Element.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/peak-element/1/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
+    Difficulty - Easy
 */
 
 #include<iostream>
