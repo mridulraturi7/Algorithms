@@ -3,6 +3,9 @@
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/counting-elements-in-two-arrays/1/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
     Difficulty - Easy
+
+    Expected Time Complexity - O((m + n) * logn)
+    Expected Space Complexity - O(1)
 */
 
 #include<iostream>
