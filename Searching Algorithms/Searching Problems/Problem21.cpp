@@ -8,6 +8,11 @@ using namespace std;
 
 int findExtra(int array1[], int array2[], int n)
 {
+    if(array1[0] != array2[0])
+    {
+        return 0;
+    }
+
     int l = 0, r = n - 2;
     while(l <= r)
     {
