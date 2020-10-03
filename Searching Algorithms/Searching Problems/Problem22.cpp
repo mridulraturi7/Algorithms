@@ -1,5 +1,8 @@
 /*
     Searching in an array where adjacent differ by at most k.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k/0/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
+    Difficulty - Easy
 */
 
 #include<iostream>
