@@ -13,7 +13,7 @@ int main()
 	
 	while(testCase-- != 0)
 	{
-	    int n, k;
+	    int n, k, x;
 	    cin>>n>>k;
 	    
 	    int *array = new int[n];
@@ -21,8 +21,7 @@ int main()
 	    {
 	        cin>>array[i];
 	    }
-	    
-	    int x;
+
 	    cin>>x;
 	    
 	    int found = -1;
