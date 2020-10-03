@@ -1,5 +1,5 @@
 /*
-    Indec of an Extra Element.
+    Index of an Extra Element.
 */
 
 #include<iostream>
@@ -13,7 +13,7 @@ int findExtra(int array1[], int array2[], int n)
         return 0;
     }
 
-    int l = 0, r = n - 2;
+    int l = 1, r = n - 2;
     while(l <= r)
     {
         int mid = (l + r) / 2;
