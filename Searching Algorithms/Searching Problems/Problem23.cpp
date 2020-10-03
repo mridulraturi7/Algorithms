@@ -6,6 +6,9 @@
 
     Expected Time Complexity - O((m + n) * logn)
     Expected Space Complexity - O(1)
+
+    The following solution is not optimized as it leverages Hashing Techniquw which ultimately increases its
+    space complexity to O(n);
 */
 
 #include<iostream>
