@@ -24,7 +24,7 @@ vector<int> countEleLessThanOrEqual(int array1[], int array2[], int m, int n)
         int sum = 0;
         if(array1[i] > max)
         {
-            res[i] = m;
+            res[i] = n;
         }
         else
         {
