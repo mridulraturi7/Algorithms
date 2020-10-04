@@ -18,6 +18,7 @@ int check(int array1[], int m, int key)
             return 1;
         }
     }
+    
     return 0;
 }
 
