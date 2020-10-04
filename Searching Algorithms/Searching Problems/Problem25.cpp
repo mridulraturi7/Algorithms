@@ -8,7 +8,7 @@ using namespace std;
 
 int countBuildings(int array[], int n)
 {
-    int left_most = array[0], count = 0;
+    int left_most = array[0], count = 1;
     for(int i = 1; i < n; i++)
     {
         if(array[i] >= left_most)
