@@ -3,6 +3,9 @@
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/facing-the-sun2126/1/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
     Difficulty - Easy
+
+    Expected Time Complexity - O(n)
+    Expected Space Complexity - O(1)
 */
 
 #include<iostream>
