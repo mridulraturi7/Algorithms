@@ -18,7 +18,6 @@ int check(int array1[], int m, int key)
             return 1;
         }
     }
-
     return 0;
 }
 
@@ -61,6 +60,7 @@ int main()
         {
             cout<<"No"<<endl;
         }
-        
     }
+
+    return 0;
 }
