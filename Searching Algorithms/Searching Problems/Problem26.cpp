@@ -49,7 +49,7 @@ int main()
             common += checkIfPresent;
         }
 
-        if(common == m)
+        if(common == n)
         {
             cout<<"Yes"<<endl;
         }
