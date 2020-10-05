@@ -40,7 +40,7 @@ int main()
 
             if(nextGreater == -1)
             {
-                cout<<"-1"<<" ";
+                cout<<"_"<<" ";
             }
 
             else
