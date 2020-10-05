@@ -43,6 +43,7 @@ int main()
             {
                 allPresent = 0;
                 cout<<"No"<<endl;
+                break;
             }
         }
 
