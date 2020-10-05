@@ -24,7 +24,7 @@ int main()
 
         for(int i = 0; i < n; i++)
         {
-            int min_diff = 1000000, nextGreater = -1;
+            int min_diff = 1000000, nextGreater = -1000001;
             for(int j = 0; j < n; j++)
             {
                 if(array[j] > array[i])
@@ -38,7 +38,7 @@ int main()
                 }
             }
 
-            if(nextGreater == -1)
+            if(nextGreater == -1000001)
             {
                 cout<<"_"<<" ";
             }
