@@ -19,7 +19,7 @@ int main()
         int *array = new int[n];
         for(int i = 0; i < n; i++)
         {
-            cin>>n;
+            cin>>array[i];
         }
 
         for(int i = 0; i < n - 1; i++)
