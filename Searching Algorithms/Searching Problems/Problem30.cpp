@@ -30,7 +30,7 @@ int main()
 
         for(int i = n - 2; i >= 0; i--)
         {
-            if(array[i] > max)
+            if(array[i] >= max)
             {
                 max = array[i];
                 leaders.push_back(max);
