@@ -15,12 +15,12 @@ int main()
     while(testCase-- != 0)
     {
         int n;
-        cin>>n;
+        scanf("%d", &n);
 
         int *array = new int[n];
         for(int i = 0; i < n; i++)
         {
-            cin>>array[i];
+            scanf("%d", &array[i]);
         }
 
         vector<int> leaders;
@@ -39,10 +39,10 @@ int main()
 
         for(int i = leaders.size() - 1; i >= 0; i--)
         {
-            cout<<leaders[i]<<" ";
+            printf("%d ", leaders[i]);
         }
 
-        cout<<endl;
+        printf("\n");
 
     }
 
