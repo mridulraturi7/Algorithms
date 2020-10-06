@@ -8,8 +8,7 @@ using namespace std;
 
 int findFloorValue(int array[], int n, int x)
 {
-    int l = 0, r = n - 1;
-    int floor_index = -1;
+    int l = 0, r = n - 1, floor_index = -1;
 
     while(l <= r)
     {
@@ -54,4 +53,6 @@ int main()
 
         cout<<findFloorValue(array, n, x)<<endl;
     }
+
+    return 0;
 }
