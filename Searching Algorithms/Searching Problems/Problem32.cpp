@@ -1,8 +1,5 @@
 /*
     Maximum sum of increasing order elements from n arrays.
-    This problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/maximum-sum-of-increasing-order-elements-from-n-arrays/0/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
-    Difficulty - Easy
 */
 
 #include<iostream>
@@ -57,7 +54,7 @@ int main()
                 break;
             }
         }
-        
+
         cout<<max_sum<<endl;
     }
 
