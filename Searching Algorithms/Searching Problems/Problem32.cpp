@@ -50,11 +50,12 @@ int main()
 
             else
             {
+                max_sum = 0;
                 break;
             }
         }
 
-        (max_sum == initial_max) ? cout<<"0"<<endl : cout<<max_sum<<endl;
+        cout<<max_sum<<endl;
     }
 
     return 0;
