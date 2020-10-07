@@ -27,14 +27,22 @@ int main()
             }
         }
 
-        int max_sum = 0;
         int max = *max_element(vec[n - 1].begin(), vec[n - 1].end());
+        int max_sum = max, initial_max = max;
 
         for(int i = n - 2; i >= 0; i--)
         {
-            int current_max = *max_element(vec[i].begin(), vec[i].end());
+            int current_max = 0;
 
-            if(current_max < max)
+            for(int j = 0; j < m; j++)
+            {
+                if(vec[i][j] > current_max && vec[i][j] < max)
+                {
+                    current_max = vec[i][j];
+                }
+            }
+
+            if(current_max != 0)
             {
                 max_sum += current_max;
                 max = current_max;
@@ -42,13 +50,11 @@ int main()
 
             else
             {
-                max_sum = 0;
                 break;
             }
-            
         }
 
-        cout<<max_sum<<endl;
+        (max_sum == initial_max) ? cout<<"0"<<endl : cout<<max_sum<<endl;
     }
 
     return 0;
