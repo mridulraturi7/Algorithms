@@ -18,7 +18,7 @@ int findPivotPoint(int array[], int n)
             return mid;
         }
 
-        else if(array[l] < array[mid])
+        else if(array[l] <= array[mid])
         {
             l = mid + 1;
         }
@@ -74,9 +74,8 @@ int main()
         cin>>k;
 
         int pivot = findPivotPoint(array, n);
-        cout<<pivot;
 
-    /*
+    
         int found;
         
         if(k <= array[pivot] && k >= array[0])
@@ -89,7 +88,7 @@ int main()
             found = binarySearch(array, pivot + 1, n - 1, k);
         }
         
-        cout<<found<<endl; */
+        cout<<found<<endl;
     }
 
     return 0;
