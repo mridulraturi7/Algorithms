@@ -1,5 +1,8 @@
 /*
-    Search in a Rotated Array.
+    Search in a Rotated Array (Approach 1 - Using Linear Search).
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
+    Difficulty - Easy
 */
 
 #include<iostream>
