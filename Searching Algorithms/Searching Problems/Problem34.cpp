@@ -36,7 +36,8 @@ long findPivotPoint(long long array[], long n)
             l = mid + 1;
         }
     }
-    return -1;
+    
+    return n - 1;
 }
 
 long binarySearch(long long array[], long l, long r, long long k)
