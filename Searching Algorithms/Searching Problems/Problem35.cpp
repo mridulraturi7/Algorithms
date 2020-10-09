@@ -1,5 +1,8 @@
 /*
-    Minimum Element in a sorted and rotated array. 
+    Minimum Element in a sorted and rotated array.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array/0/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
+    Difficulty - Easy
 */
 
 #include<iostream>
