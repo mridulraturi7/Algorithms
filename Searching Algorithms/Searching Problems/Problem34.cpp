@@ -1,5 +1,5 @@
 /*
-    Search in a Rotated Array (Approach 1 - Using Binary Search).
+    Search in a Rotated Array (Approach 2 - Using Binary Search).
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
     Difficulty - Easy
