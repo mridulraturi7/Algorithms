@@ -5,6 +5,7 @@
     Difficulty - Easy
 
     Time Complexity - O(n*n)
+    Space Complexity - O(1)
 */
 
 #include<iostream>
