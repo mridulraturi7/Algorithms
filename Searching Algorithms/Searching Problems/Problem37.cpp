@@ -12,31 +12,28 @@ class Solution
     public:
         int matSearch(vector<vector<int>> &mat, int n, int m, int x)
         {
-            int row, col;
-            for(int i = 0; i < n; i++)
+            int smallest = mat[0][0], largest = mat[n - 1][m - 1];
+            if(x < smallest || x > largest)
             {
-                if(mat[i][0] == x)
+                return 0;
+            }
+
+            int i = 0, j = n - 1;
+            while(i < n && j >= 0)
+            {
+                if(mat[i][j] == x)
                 {
                     return 1;
                 }
 
-                else if(mat[i][0] < x)
+                else if(mat[i][j] < x)
                 {
-                    row = i;
+                    i++;
                 }
 
                 else
                 {
-                    break;
-                }
-                
-            }
-
-            for(int j = 0; j < m; j++)
-            {
-                if(mat[row][j] == x)
-                {
-                    return 1;
+                    j--;
                 }
             }
 
