@@ -5,6 +5,7 @@
     Difficulty - Easy
 
     Expected Time Complexity - O(logn)
+    Expected Space Complexity - O(1)
 */
 
 #include<iostream>
