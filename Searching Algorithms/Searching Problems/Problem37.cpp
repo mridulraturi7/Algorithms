@@ -12,18 +12,19 @@ class Solution
     public:
         int matSearch(vector<vector<int>> &mat, int n, int m, int x)
         {
-            int smallest = mat[0][0], largest = mat[n - 1][m - 1];
+            int smallest = mat[0][0], largest = mat[n - 1][m - 1], found = 0;
             if(x < smallest || x > largest)
             {
-                return 0;
+                return found;
             }
 
-            int i = 0, j = n - 1;
+            int i = 0, j = m - 1;
             while(i < n && j >= 0)
             {
                 if(mat[i][j] == x)
                 {
-                    return 1;
+                    found = 1;
+                    break;
                 }
 
                 else if(mat[i][j] < x)
@@ -37,7 +38,7 @@ class Solution
                 }
             }
 
-            return 0;
+            return found;
         }
 };
 
