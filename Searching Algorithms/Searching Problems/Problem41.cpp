@@ -43,4 +43,6 @@ int main()
 
         cout<<max_steps<<endl;
     }
+
+    return 0;
 }
