@@ -39,7 +39,7 @@ int main()
             {
                 int sum = A[i] + B[j];
                 int current_diff = abs(x - sum);
-                if(current_diff < min_difference || current_diff == min_difference && A[i] < minA)
+                if((current_diff < min_difference) || (current_diff == min_difference && A[i] < minA))
                 {
                     min_difference = current_diff;
                     minA = A[i];
