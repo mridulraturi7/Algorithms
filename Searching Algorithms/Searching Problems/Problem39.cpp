@@ -11,7 +11,18 @@ class Solution
     public:
         int search(int array[], int n)
         {
-            int l = 0, r = n - 1, res;
+            if(array[0] != array[1])
+	        {
+	            return array[0];
+	        }
+	    
+	        else if(array[n - 2] != array[n - 1])
+	        {
+	            return array[n - 1];
+	        }
+	    
+	        int l = 1, r = n - 2, res;
+            
             while(l <= r)
             {
                 int mid = (l + r) / 2;
