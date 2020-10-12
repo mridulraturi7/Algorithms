@@ -32,7 +32,7 @@ int main()
         int x;
         cin>>x;
 
-        int min_difference = 500, minA, minB, prev_sum, prevA;
+        int min_difference = 500, minA, minB;
         for(int i = 0; i < n; i++)
         {
             for(int j = 0; j < m; j++)
@@ -42,7 +42,6 @@ int main()
                 if(current_diff < min_difference || current_diff == min_difference && A[i] < minA)
                 {
                     min_difference = current_diff;
-                    prev_sum = sum;
                     minA = A[i];
                     minB = B[j];
                 }
