@@ -2,8 +2,8 @@
     Find the closest pair from two arrays.
 */
 
-#include<iostream>
-#include<cstdlib>
+#include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -32,16 +32,17 @@ int main()
         int x;
         cin>>x;
 
-        int min_difference = 500, minA, minB;
+        int min_difference = 500, minA, minB, prev_sum, prevA;
         for(int i = 0; i < n; i++)
         {
             for(int j = 0; j < m; j++)
             {
                 int sum = A[i] + B[j];
                 int current_diff = abs(x - sum);
-                if(current_diff < min_difference)
+                if(current_diff < min_difference || current_diff == min_difference && A[i] < minA)
                 {
                     min_difference = current_diff;
+                    prev_sum = sum;
                     minA = A[i];
                     minB = B[j];
                 }
