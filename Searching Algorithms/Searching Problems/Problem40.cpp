@@ -32,6 +32,15 @@ int main()
             i++;
         }
 
+        for(int j = 0; j < len_str - 1; j++)
+        {
+            if(str[j] == 'X' && str[j + 1] == 'X')
+            {
+                str.erase(str.begin() + j);
+                j--;
+            }
+        }
+
         cout<<str<<endl;
     }
 
