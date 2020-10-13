@@ -11,24 +11,27 @@ class Solution
     public:
         int findKRotation(int array[], int n)
         {
-            int l = 0, r = n - 1;
+            int l = 0, r = n - 1, rotation_point = 0;
 
             while(l <= r)
             {
                 int mid = (l + r) / 2;
                 if(l == r)
                 {
-                    return l;
+                    rotation_point = l + 1;
+                    break;
                 }
 
                 else if(mid < r && array[mid] > array[mid + 1])
                 {
-                    return mid;
+                    rotation_point = mid + 1;
+                    break;
                 }
 
                 else if(mid > l && array[mid] < array[mid - 1])
                 {
-                    return mid - 1;
+                    rotation_point = mid;
+                    break;
                 }
 
                 else if(array[l] >= array[mid])
@@ -41,7 +44,13 @@ class Solution
                     l = mid + 1;
                 }
             }
-            return n - 1;
+            
+            if(rotation_point == n)
+            {
+                return 0;
+            }
+            
+            return rotation_point;
         }
 };
 
@@ -62,9 +71,7 @@ int main()
         }
 
         Solution ob;
-        int pivot = ob.findKRotation(array, n);
-
-        (pivot != n - 1) ? cout<<pivot + 1 : cout<<"0";
-        cout<<endl;
+        auto res = ob.findKRotation(array, n);
+        cout<<res<<endl;
     }
 }
