@@ -66,6 +66,7 @@ int main()
 
         int pivot = findPivot(array, n);
         (pivot != n - 1) ? cout<<array[pivot + 1] : cout<<array[0];
+        
         cout<<endl;
     }
 
