@@ -2,7 +2,8 @@
     Two Repeated Elements.
 */
 
-#include<iostream>
+#include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -24,17 +25,19 @@ int main()
 
         for(int i = 1; i <= n + 2; i++)
         {
-            array[array[i]] = -1 * array[i];
-        }
-
-        for(int i = 1; i <= n; i++)
-        {
-            if(array[i] > 0)
+            if(array[abs(array[i])] > 0)
             {
-                cout<<array[i]<<" ";
+                array[abs(array[i])] *= -1;
+            }
+            
+            else
+            {
+                cout<<abs(array[i])<<" ";
             }
         }
 
         cout<<endl;
     }
+    
+    return 0;
 }
