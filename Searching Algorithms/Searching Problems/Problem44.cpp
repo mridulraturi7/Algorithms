@@ -72,6 +72,7 @@ int main()
 
         Solution ob;
         auto res = ob.findKRotation(array, n);
+        
         cout<<res<<endl;
     }
 
