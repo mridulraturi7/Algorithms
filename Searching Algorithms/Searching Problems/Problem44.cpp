@@ -1,5 +1,8 @@
 /*
     Rotation.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/rotation4723/1/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
+    Difficulty - Easy
 */
 
 #include<iostream>
@@ -72,7 +75,7 @@ int main()
 
         Solution ob;
         auto res = ob.findKRotation(array, n);
-        
+
         cout<<res<<endl;
     }
 
