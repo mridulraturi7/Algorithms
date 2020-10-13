@@ -28,14 +28,10 @@ int main()
         for(int i = 0; i < n + 2; i++)
         {
             hash[array[i]]++;
-        }
-
-        for(int i = 0; i < n + 2; i++)
-        {
-            if(hash[array[i]] == 2)
+            
+            if(hash[array[i]] > 1)
             {
-                cout<<array[i]<<" ";
-                hash[array[i]] = 0;
+                printf("%d ", array[i]);
             }
         }
 
