@@ -12,10 +12,10 @@ class Solution
     public:
         int maxOnes(vector<vector<int>> &mat, int n, int m)
         {
-            int max_row_zero = 0, row = 0;
+            int max_row_zero = 0, row = -1;
             for(int i = 0; i < n; i++)
             {
-                int l = mat[i][0], r = mat[i][m - 1];
+                int l = 0, r = n - 1;
                 int current_row_zero = 0;
 
                 if(mat[i][0] == 1)
@@ -29,18 +29,18 @@ class Solution
 
                     if(mat[i][mid] == 1 && mat[i][mid - 1] == 0)
                     {
-                        current_row_zero = mat[i][mid];
+                        current_row_zero = (m - mid) + 1;
                         break;
                     }
                     
-                    else if(mat[i][mid - 1] == 1)
+                    else if(mat[i][mid] == 0)
                     {
-                        r = mid - 1;
+                        l = mid + 1;
                     }
 
                     else
                     {
-                        l = mid + 1;
+                        r = mid - 1;
                     }
                 }
 
