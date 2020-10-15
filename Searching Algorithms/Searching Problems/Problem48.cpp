@@ -77,4 +77,6 @@ int main()
         Solution ob;
         cout<<ob.maxOnes(arr, n, m)<<endl;
     }
+
+    return 0;
 }
