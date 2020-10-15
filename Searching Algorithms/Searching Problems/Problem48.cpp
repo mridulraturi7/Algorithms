@@ -4,7 +4,7 @@
     Problem Statement - https://practice.geeksforgeeks.org/problems/maximum-no-of-1s-row3027/1/?category[]=Searching&difficulty[]=0&page=1&query=category[]Searchingdifficulty[]0page1
     Difficulty - Easy
 
-    Time Complexity - O(n*logm)
+    Time Complexity  - O(n*logm)
     Space Complexity - O(1)
 */
 
