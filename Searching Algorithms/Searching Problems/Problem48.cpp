@@ -19,6 +19,7 @@ class Solution
         int maxOnes(vector<vector<int>> &mat, int n, int m)
         {
             int max_row_zero = 0, row = -1;
+
             for(int i = 0; i < n; i++)
             {
                 int l = 0, r = n - 1;
@@ -56,7 +57,7 @@ class Solution
                     row = i;
                 }
             }
-
+            
             return row;
         }
 };
