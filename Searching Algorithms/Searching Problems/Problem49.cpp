@@ -13,7 +13,7 @@ void findNextGreater(vector<int> digits)
     int i, j;
 
     //Find the element starting from right whose left element is smaller than element on its right.
-    for(i = digits.size() - 1; i >= 0; i--)
+    for(i = digits.size() - 1; i > 0; i--)
     {
         if(digits[i] > digits[i - 1])
         {
@@ -24,7 +24,7 @@ void findNextGreater(vector<int> digits)
     //Check if the number is in decreasing order, if i == 0
     if(i == 0)
     {
-        cout<<"Not Possible"<<endl;
+        cout<<"not possible"<<endl;
         return;
     }
 
@@ -70,6 +70,8 @@ int main()
         reverse(digits.begin(), digits.end());
 
         findNextGreater(digits);
+
+        cout<<endl;
     }
 
     return 0;
