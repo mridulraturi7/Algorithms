@@ -2,34 +2,18 @@
     Subarray with given sum.
 */
 
-#include<iostream>
-#include<vector>
+#include <iostream>
 
 using namespace std;
 
 void findSum(int array[], int n, int s)
 {
-    //vector<int> current_status;
     int sum = 0, start = 0, last = 0;
     bool found = false;
     for(int i = 0; i < n; i++)
     {
         sum += array[i];
-
-        //current_status.push_back(array[i]);
-
-/*
-        if(sum > s)
-        {
-            //current_status.push_back(array[i]);
-            //sum -= current_status[start];
-            //start++;
-            while(sum > s)
-            {
-                
-            }
-        }
-*/
+        
         while(sum > s)
         {
             sum -= array[start];
