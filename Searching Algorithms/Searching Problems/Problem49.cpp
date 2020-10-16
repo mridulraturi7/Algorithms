@@ -2,9 +2,9 @@
     Next Greater number with same set of digits.
 */
 
-#include<iostream>
-#include<vector>
-#include<algorithm>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -24,11 +24,12 @@ void findNextGreater(vector<int> digits)
     //Check if the number is in decreasing order, if i == 0
     if(i == 0)
     {
-        cout<<"not possible"<<endl;
+        cout<<"not possible";
         return;
     }
 
     int x = digits[i - 1], smallest = i;
+    
     for(j = i + 1; j < digits.size(); j++)
     {
         if(digits[j] > x && digits[j] < digits[smallest])
