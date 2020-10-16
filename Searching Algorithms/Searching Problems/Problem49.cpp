@@ -44,7 +44,7 @@ void findNextGreater(vector<int> digits)
 
     sort(digits.begin() + i, digits.end());
 
-    for(int k = 0; k < digits.size(); i++)
+    for(int k = 0; k < digits.size(); k++)
     {
         cout<<digits[k];
     }
