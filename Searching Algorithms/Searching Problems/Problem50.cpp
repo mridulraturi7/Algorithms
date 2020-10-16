@@ -4,7 +4,7 @@
     Problem Statement - https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0/?category[]=Searching&problemStatus=unsolved&difficulty[]=0&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]0page1
     Difficulty - Easy
 
-    Time Complexity - O(n^3)
+    Time Complexity - O(n^2)
     Space Complexity - O(1)
 */
 
