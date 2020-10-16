@@ -38,8 +38,8 @@ void findNextGreater(vector<int> digits)
     }
 
     //swap both digits
-    int temp = digits[i];
-    digits[i] = digits[smallest];
+    int temp = digits[i - 1];
+    digits[i - 1] = digits[smallest];
     digits[smallest] = temp;
 
     sort(digits.begin() + i, digits.end());
