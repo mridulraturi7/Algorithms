@@ -5,7 +5,7 @@
     Difficulty - Easy
 
     Time Complexity - O(n) //Single Traversal is done
-    Space Complexity - O(1)
+    
 */
 
 #include <iostream>
