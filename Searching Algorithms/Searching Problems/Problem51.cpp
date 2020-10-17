@@ -2,7 +2,7 @@
     Subarray with given sum - Approach 2 - Sliding Window - Efficient Solution.
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0/?category[]=Searching&problemStatus=unsolved&difficulty[]=0&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]0page1
-    
+    Difficulty - Easy
 
     Time Complexity - O(n) //Single Traversal is done
     Space Complexity - O(1)
