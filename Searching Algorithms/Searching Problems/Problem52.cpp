@@ -11,7 +11,7 @@ class Solution
     public:
         int findMissing(int array[], int n)
         {
-            int d, sum, current_sum = 0;
+            long int d, sum, current_sum = 0;
             d = (array[n - 1] - array[0]) / n;
 
             sum = ((n + 1) * (2 * array[0] + (n * d))) / 2;
