@@ -1,5 +1,5 @@
 /*
-    Missing Element of AP Approach 2.
+    Missing Element of AP.
 */
 
 #include<iostream>
