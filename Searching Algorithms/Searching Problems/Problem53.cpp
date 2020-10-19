@@ -1,8 +1,7 @@
 /*
     Missing Element of AP - Approach 2 - Divide and Conquer.
     This problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/missing-element-of-ap2228/1/?category[]=Searching&problemStatus=unsolved&difficulty[]=0&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]0page1
-    Difficulty - Easy
+    
 
     Time Complexity - O(logn)
     Space Complexity - O(1)
@@ -40,7 +39,7 @@ class Solution
                     r = mid - 1;
                 }
             }
-            
+
             return -1;
         }
 };
