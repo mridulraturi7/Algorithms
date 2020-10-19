@@ -40,7 +40,7 @@ class Solution
                     r = mid - 1;
                 }
             }
-            
+
             return -1;
         }
 };
@@ -64,6 +64,5 @@ int main()
         Solution ob;
         cout<<ob.findMissing(array, n)<<endl;
     }
-
     return 0;
 }
