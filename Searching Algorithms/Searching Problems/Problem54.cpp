@@ -1,5 +1,8 @@
 /*
     Smallest Factorial Number.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/smallest-factorial-number5929/1/?category[]=Searching&problemStatus=unsolved&difficulty[]=0&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]0page1#
+    Difficulty - Easy
 */
 
 #include<iostream>
