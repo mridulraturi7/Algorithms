@@ -27,7 +27,7 @@ class Solution
             {
                 int mid = (l + r) / 2;
 
-                if(checkTrailingZeros(mid, n))
+                if(checkTrailingZeroes(mid, n))
                 {
                     r = mid;
                 }
@@ -41,7 +41,7 @@ class Solution
             return l;
         }
 
-        bool checkTrailingZeros(int num, int zeros)
+        bool checkTrailingZeroes(int num, int zeros)
         {
             int count = 0;
             for(int i = 5; num / i >= 1; i *= 5)
