@@ -11,7 +11,44 @@ class Solution
     public:
         int findNum(int n)
         {
+            if(n == 1)
+            {
+                return 5;
+            }
 
+            int l = 0, r = 5 * n;
+            while(l < r)
+            {
+                int mid = (l + r) / 2;
+
+                if(checkTrailingZeros(mid, n))
+                {
+                    r = mid;
+                }
+
+                else
+                {
+                    l = mid + 1;
+                }
+            }
+
+            return l;
+        }
+
+        bool checkTrailingZeros(int num, int zeros)
+        {
+            int count = 0;
+            for(int i = 5; num / i >= 1; i *= 5)
+            {
+                count += num / i;
+            }
+
+            if(count >= zeros)
+            {
+                return true;
+            }
+
+            return false;
         }
 };
 
