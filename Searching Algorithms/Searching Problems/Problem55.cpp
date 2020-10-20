@@ -11,7 +11,16 @@ class Solution
     public:
         int countTrailingZeros(int n)
         {
-            
+            //Trailing zeros is always produced by 2 and 5.
+            //Number of zeroes in the factorial of a number is equal to the number of 5 in the prime factor of n!.
+
+            int count = 0;
+            for(int i = 5; n / i >= 1; i *= 5)
+            {
+                count += (n / i);
+            }
+
+            return count;
         }
 };
 
