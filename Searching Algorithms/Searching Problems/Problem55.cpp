@@ -1,5 +1,8 @@
 /*
     Count Trailing Zeros in the factorial of a number.
+    This problem is taken from GFG.
+    Problem Statement - https://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/
+    Difficulty - Easy
 */
 
 #include<iostream>
