@@ -1,5 +1,5 @@
 /*
-    Count Trailing Zeros in the factorial of a number.
+    Count Trailing Zeroes in the factorial of a number.
     This problem is taken from GFG.
     Problem Statement - https://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/
     Difficulty - Easy
@@ -15,9 +15,9 @@ using namespace std;
 class Solution
 {
     public:
-        int countTrailingZeros(int n)
+        int countTrailingZeroes(int n)
         {
-            //Trailing zeros is always produced by 2 and 5.
+            //Trailing zeroes is always produced by 2 and 5.
             //Number of zeroes in the factorial of a number is equal to the number of 5 in the prime factor of n!.
 
             int count = 0;
@@ -41,7 +41,7 @@ int main()
         cin>>n;
 
         Solution ob;
-        cout<<ob.countTrailingZeros(n)<<endl;
+        cout<<ob.countTrailingZeroes(n)<<endl;
     }
 
     return 0;
