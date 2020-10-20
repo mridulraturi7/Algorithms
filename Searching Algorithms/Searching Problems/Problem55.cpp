@@ -3,6 +3,9 @@
     This problem is taken from GFG.
     Problem Statement - https://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/
     Difficulty - Easy
+
+    Time Complexity - O(log(base5)n)
+    Space Complexity - O(1)
 */
 
 #include<iostream>
