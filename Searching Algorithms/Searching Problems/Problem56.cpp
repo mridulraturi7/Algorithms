@@ -47,4 +47,6 @@ int main()
 
         Solution ob;
     }
+
+    return 0;
 }
