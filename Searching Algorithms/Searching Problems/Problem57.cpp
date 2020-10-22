@@ -12,7 +12,51 @@ class Solution
     public:
         vector<int> commonElements(int A[], int B[], int C[], int n1, int n2, int n3)
         {
+            vector<int> commonAB;
+            int i = 0, j = 0;
+            while(i < n1 &&  j < n2)
+            {
+                if(A[i] < B[j])
+                {
+                    i++;
+                }
 
+                else if(B[j] < A[i])
+                {
+                    j++;
+                }
+
+                else
+                {
+                    commonAB.push_back(A[i]);
+                    i++;
+                    j++;
+                }
+            }
+
+            vector<int> commonAll;
+            int k = 0, l = 0;
+            while(k < commonAB.size() && l < n3)
+            {
+                if(commonAB[k] < C[l])
+                {
+                    k++;
+                }
+
+                else if(C[l] < commonAB[k])
+                {
+                    l++;
+                }
+
+                else
+                {
+                    commonAll.push_back(commonAB[k]);
+                    k++;
+                    l++;
+                }
+            }
+
+            return commonAll;
         }
 };
 
