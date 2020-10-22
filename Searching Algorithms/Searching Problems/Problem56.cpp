@@ -52,6 +52,7 @@ class Solution
                 if(hash[A[i]] == 3)
                 {
                     res.push_back(A[i]);
+                    hash[A[i]] = 0;
                 }
             }
 
