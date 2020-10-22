@@ -19,8 +19,10 @@ class Solution
     public:
         vector<int> commonElements(int A[], int B[], int C[], int n1, int n2, int n3)
         {
-            vector<int> commonAB;
+            vector<int> commonAB, commonAll, res;
+
             int i = 0, j = 0;
+
             while(i < n1 &&  j < n2)
             {
                 if(A[i] < B[j])
@@ -41,8 +43,8 @@ class Solution
                 }
             }
 
-            vector<int> commonAll;
             int k = 0, l = 0;
+            
             while(k < commonAB.size() && l < n3)
             {
                 if(commonAB[k] < C[l])
@@ -68,8 +70,6 @@ class Solution
             {
                 final[commonAll[i]]++;
             }
-
-            vector<int> res;
 
             for(auto i : final)
             {
