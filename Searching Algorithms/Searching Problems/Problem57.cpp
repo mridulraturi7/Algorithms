@@ -4,6 +4,7 @@
 
 #include<iostream>
 #include<vector>
+#include<map>
 
 using namespace std;
 
@@ -56,7 +57,20 @@ class Solution
                 }
             }
 
-            return commonAll;
+            map<int, int> final;
+            for(int i = 0; i < commonAll.size(); i++)
+            {
+                final[commonAll[i]]++;
+            }
+
+            vector<int> res;
+
+            for(auto i : final)
+            {
+                res.push_back(i.first);
+            }
+
+            return res;
         }
 };
 
