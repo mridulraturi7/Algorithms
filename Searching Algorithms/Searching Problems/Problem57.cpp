@@ -5,7 +5,7 @@
     Difficulty - Easy
 
     Time Complexity - O(n1 + n2 + n3)
-    Space COmplexity - O(n1 + n2 + n3)
+    Space Complexity - O(n1 + n2 + n3)
 */
 
 #include<iostream>
