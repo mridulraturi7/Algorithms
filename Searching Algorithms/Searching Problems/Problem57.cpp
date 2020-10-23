@@ -1,8 +1,7 @@
 /*
     Common Elements - Approach 2 - Two Pointer Approach.
     This problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/common-elements1132/1/?category[]=Searching&problemStatus=unsolved&difficulty[]=0&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]0page1
-    Difficulty - Easy
+    
 
     Time Complexity - O(n1 + n2 + n3)
     Space Complexity - O(n1 + n2 + n3)
