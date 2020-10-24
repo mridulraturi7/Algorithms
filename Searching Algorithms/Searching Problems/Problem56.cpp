@@ -1,8 +1,6 @@
 /*
     Common Elements - Approach 1 - Hashing.
-    This problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/common-elements1132/1/?category[]=Searching&problemStatus=unsolved&difficulty[]=0&page=1&query=category[]SearchingproblemStatusunsolveddifficulty[]0page1
-    Difficulty - Easy
+    
 
     Expected Time Complexity - O(n1 + n2 + n3)
     Expected Space Complexity - O(n1 + n2 + n3)
