@@ -3,6 +3,9 @@
     This problem is taken from GFG.
     Problem Statement - https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/
     Difficulty - Easy
+
+    Time Complexity - O(m + n)
+    Space Complexity - O(n)
 */
 
 #include<iostream>
