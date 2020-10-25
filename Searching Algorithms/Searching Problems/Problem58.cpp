@@ -12,7 +12,31 @@ class Solution
     public:
         vector<int> intersection(int array1[], int array2[], int n)
         {
+            int i = 0, j = 0;
 
+            vector<int> res;
+
+            while(i < n && j < n)
+            {
+                if(array1[i] < array2[j])
+                {
+                    i++;
+                }
+
+                else if(array2[j] < array1[i])
+                {
+                    j++;
+                }
+
+                else
+                {
+                    res.push_back(array1[i]);
+                    i++;
+                    j++;
+                }
+            }
+
+            return res;
         }
 };
 
