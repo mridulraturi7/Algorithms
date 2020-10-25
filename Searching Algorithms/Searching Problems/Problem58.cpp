@@ -75,7 +75,7 @@ int main()
 
         if(res.size() == 0)
         {
-            cout<<"-1"<<endl;
+            cout<<"-1";
         }
 
         else
@@ -85,7 +85,7 @@ int main()
                 cout<<res[i]<<" ";
             }
         }
-        
 
+        cout<<endl;
     }
 }
