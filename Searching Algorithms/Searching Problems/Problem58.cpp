@@ -10,13 +10,13 @@ using namespace std;
 class Solution
 {
     public:
-        vector<int> intersection(int array1[], int array2[], int n)
+        vector<int> intersection(int array1[], int array2[], int m, int n)
         {
             int i = 0, j = 0;
 
             vector<int> res;
 
-            while(i < n && j < n)
+            while(i < m && j < n)
             {
                 if(array1[i] < array2[j])
                 {
@@ -47,13 +47,13 @@ int main()
 
     while(testCase-- != 0)
     {
-        int n;
-        cin>>n;
+        int m, n;
+        cin>>m>>n;
 
-        int *array1 = new int[n];
+        int *array1 = new int[m];
         int *array2 = new int[n];
 
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i < m; i++)
         {
             cin>>array1[i];
         }
@@ -65,7 +65,7 @@ int main()
 
         Solution ob;
 
-        auto res = ob.intersection(array1, array2, n);
+        auto res = ob.intersection(array1, array2, m, n);
 
         if(res.size() == 0)
         {
