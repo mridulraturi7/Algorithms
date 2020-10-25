@@ -41,11 +41,13 @@ class Solution
             while(i < m)
             {
                 res.push_back(array1[i]);
+                i++;
             }
 
             while(j < n)
             {
                 res.push_back(array2[j]);
+                j++;
             }
 
             return res;
