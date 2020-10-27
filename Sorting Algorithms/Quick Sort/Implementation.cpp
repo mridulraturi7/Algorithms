@@ -67,6 +67,8 @@ int main()
 
     quickSort(array, 0, n - 1);
 
+    cout<<"Performing Quick Sort......"<<endl;
+
     cout<<"Array after performing Quick Sort: ";
     for(int i = 0; i < n; i++)
     {
