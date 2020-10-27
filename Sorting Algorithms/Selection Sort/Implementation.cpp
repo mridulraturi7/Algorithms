@@ -14,7 +14,7 @@
 
     Selection Sort is an "In-Place" Sorting Algorithm.
 
-    Selection Sort is not stable by default, however it can be made deafult.
+    Selection Sort is not stable by default, however it can be made stable.
 */
 
 #include<iostream>
