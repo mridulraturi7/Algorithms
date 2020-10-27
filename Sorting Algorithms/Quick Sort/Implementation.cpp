@@ -20,7 +20,7 @@
 
     Quick Sort is an "In-Place" Sorting Algorithm.
 
-    Quick Sort is not a Stable Sorting Algorithm by default.
+    Quick Sort is not a Stable Sorting Algorithm by default, however it can be made stable.
 */
 
 #include<iostream>
