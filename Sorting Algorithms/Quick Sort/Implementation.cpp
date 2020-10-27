@@ -47,7 +47,7 @@ void quickSort(int array[], int low, int high)
     {
         int pivot_index = partition(array, low, high);
 
-        quickSort(array, 0, pivot_index - 1);
+        quickSort(array, 0, pivot_index);
         quickSort(array, pivot_index + 1, high);
     }
 }
@@ -65,7 +65,7 @@ int main()
         cin>>array[i];
     }
 
-    quickSort(array, 0, n - 1);
+    quickSort(array, 0, n);
 
     cout<<"Performing Quick Sort......"<<endl;
 
