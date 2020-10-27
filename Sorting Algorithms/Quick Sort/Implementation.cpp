@@ -18,7 +18,9 @@
             Stack Size in Best Case  : O(logn)
             Stack Size in Worst Case : O(n)
 
-    Quick Sort is an "In-Place" sorting algorithm.
+    Quick Sort is an "In-Place" Sorting Algorithm.
+
+    Quick Sort is not a Stable Sorting Algorithm by default.
 */
 
 #include<iostream>
