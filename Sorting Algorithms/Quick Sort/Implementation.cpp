@@ -36,7 +36,7 @@ void swap(int *x, int *y)
 
 int partition(int array[], int low, int high)
 {
-    int pivot = array[low];         
+    int pivot = array[low];         //Taking first element as pivot
 
     int i = low, j = high;
 
