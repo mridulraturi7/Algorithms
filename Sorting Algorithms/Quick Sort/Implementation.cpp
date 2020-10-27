@@ -1,5 +1,5 @@
 /*
-    Quick Sort.
+    Quick Sort - Taking first element as pivot element.
 
     Quick Sort is a Divide and Conquer Algorithm.
 
@@ -36,7 +36,7 @@ void swap(int *x, int *y)
 
 int partition(int array[], int low, int high)
 {
-    int pivot = array[low];
+    int pivot = array[low];         
 
     int i = low, j = high;
 
