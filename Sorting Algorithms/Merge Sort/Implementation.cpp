@@ -10,8 +10,10 @@
         Avergae Case    : O(n*logn)
         Worst Case      : O(n*logn)
 
-    Space COmplexity Analysis:
+    Space Complexity Analysis:
         Auxiliary Space : O(n)
+
+    
 */
 
 #include<iostream>
