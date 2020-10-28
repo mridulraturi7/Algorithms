@@ -6,9 +6,9 @@
     It divides the array into two halves, calls itself for two halves and then merges the two sorted halves.
 
     Time Cmplexity Analysis:
-        Best Case       : O(nlogn)
-        Avergae Case    : O(nlogn)
-        Worst Case      : O(nlogn)
+        Best Case       : O(n*logn)
+        Avergae Case    : O(n*logn)
+        Worst Case      : O(n*logn)
 */
 
 #include<iostream>
