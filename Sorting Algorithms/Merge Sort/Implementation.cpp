@@ -8,7 +8,38 @@ using namespace std;
 
 void merge(int array[], int low, int mid, int high)
 {
-    
+    int *res = new int[high - low + 1];
+    int i = low, j = mid + 1, k = low;
+
+    while(i <= mid && j <= high)
+    {
+        if(array[i] < array[j])
+        {
+            res[k++] = array[i];
+            i++;
+        }
+
+        else
+        {
+            res[k++] = array[j];
+            j++;
+        }
+    }
+
+    while(i <= mid)
+    {
+        res[k++] = array[i];
+    }
+
+    while(j <= high)
+    {
+        res[k++] = array[j];
+    }
+
+    for(int x = low; x <= high; x++)
+    {
+        array[x] = res[x];
+    }
 }
 
 void mergeSort(int array[], int low, int high)
