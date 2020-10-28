@@ -4,6 +4,11 @@
     Merge Sort is a Divide and Conquer Algorithm.
 
     It divides the array into two halves, calls itself for two halves and then merges the two sorted halves.
+
+    Time Cmplexity Analysis:
+        Best Case       : O(nlogn)
+        Avergae Case    : O(nlogn)
+        Worst Case      : O(nlogn)
 */
 
 #include<iostream>
