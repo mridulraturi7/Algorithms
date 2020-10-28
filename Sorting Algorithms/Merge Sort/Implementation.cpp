@@ -29,11 +29,13 @@ void merge(int array[], int low, int mid, int high)
     while(i <= mid)
     {
         res[k++] = array[i];
+        i++;
     }
 
     while(j <= high)
     {
         res[k++] = array[j];
+        j++;
     }
 
     for(int x = low; x <= high; x++)
