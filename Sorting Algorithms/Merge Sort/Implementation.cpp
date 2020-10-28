@@ -1,5 +1,9 @@
 /*
     Merge Sort.
+
+    Merge Sort is a Divide and Conquer Algorithm.
+
+    It divides the array into two halves, calls itself for two halves and then merges the two sorted halves.
 */
 
 #include<iostream>
