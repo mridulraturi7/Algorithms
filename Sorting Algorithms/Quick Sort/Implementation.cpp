@@ -13,8 +13,7 @@
         Worst Case      : O(n*n)
 
     Space Complexity Analysis:
-        Since Quick Sort is a recursive algorithm and it does not use any extra space but it will use a stack 
-        to store the recursive function call.
+        
             
 
     Quick Sort is an "In-Place" Sorting Algorithm.
