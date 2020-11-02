@@ -10,6 +10,9 @@
         Avergae Case    : O(n*logn)
         Worst Case      : O(n*logn)
 
+    Space Complexity Analysis:
+        Auxiliary Space : O(n)
+
     Merge Sort is not an "In Place" Sorting Algorithm.
 
     Merge Sort is a Stable Sorting Algorithm.
