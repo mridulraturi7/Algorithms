@@ -26,6 +26,7 @@ void merge(int array[], int low, int mid, int high)
 {
     //Size of the merged array will be (high - low + 1)
     int *res = new int[high - low + 1];
+    
     int i = low, j = mid + 1, k = low;
 
     while(i <= mid && j <= high)
