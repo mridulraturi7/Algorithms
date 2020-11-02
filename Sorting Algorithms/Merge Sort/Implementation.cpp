@@ -5,10 +5,7 @@
 
     It divides the array into two halves, calls itself for two halves and then merges the two sorted halves.
 
-    Time Cmplexity Analysis:
-        Best Case       : O(n*logn)
-        Avergae Case    : O(n*logn)
-        Worst Case      : O(n*logn)
+    
 
     Space Complexity Analysis:
         Auxiliary Space : O(n)
