@@ -3,7 +3,9 @@
 
     Quick Sort is a Divide and Conquer Algorithm.
 
-    
+    It picks an element as pivot and partitions the array around the picked pivot element. The pivot element is 
+    sorted such that all the elements to its left side will be less than that pivot element and all the elements 
+    to the right of the pivot element will be greater than the pivot element.
 
     Time Complexity Analysis:
         Best Case       : O(n*logn)
