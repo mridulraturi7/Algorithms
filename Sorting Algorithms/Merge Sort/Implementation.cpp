@@ -15,7 +15,7 @@
 
     
 
-    
+    Merge Sort is a Stable Sorting Algorithm.
 */
 
 #include<iostream>
