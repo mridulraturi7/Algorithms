@@ -7,7 +7,10 @@
     sorted such that all the elements to its left side will be less than that pivot element and all the elements 
     to the right of the pivot element will be greater than the pivot element.
 
-    
+    Time Complexity Analysis:
+        Best Case       : O(n*logn)
+        Average Case    : O(n*logn)
+        Worst Case      : O(n*n)
 
     Space Complexity Analysis:
         Since Quick Sort is a recursive algorithm and it does not use any extra space but it will use a stack 
