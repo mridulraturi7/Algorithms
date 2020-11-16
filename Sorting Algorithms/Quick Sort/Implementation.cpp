@@ -18,6 +18,8 @@
             Stack Size in Best Case  : O(logn)
             Stack Size in Worst Case : O(n)
 
+    Quick Sort is an "In-Place" Sorting Algorithm.
+
     
 */
 
