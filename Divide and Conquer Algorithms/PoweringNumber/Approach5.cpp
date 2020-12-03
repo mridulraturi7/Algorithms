@@ -18,7 +18,7 @@ float findPower(float a, int b)
         return 1;
     }
 
-    int temp = findPower(a, b / 2);
+    float temp = findPower(a, b / 2);
 
     if((b % 2) == 0)
     {
@@ -27,7 +27,7 @@ float findPower(float a, int b)
 
     else
     {
-        if(b > 1)
+        if(b > 0)
         {
             return a * temp * temp;
         }
