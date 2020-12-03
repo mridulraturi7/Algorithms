@@ -15,7 +15,7 @@ int findCrossSubArraySum(int array[], int l, int mid, int h)
 {
     int sum = 0;
     int left_sum = INT_MIN;
-    for(int i = l; i <= mid; i++)
+    for(int i = mid; i >= l; i--)
     {
         sum += array[i];
         if(sum > left_sum)
