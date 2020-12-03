@@ -1,5 +1,7 @@
 /*
     Power of a number - That works for float base and negative exponents.
+
+    Time Complexity - O(logn)
 */
 
 #include<iostream>
