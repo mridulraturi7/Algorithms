@@ -1,5 +1,7 @@
 /*
-    Power of a number.
+    Power of a number - Divide and Conquer(Optimized).
+
+    Time Complexity - O(logn)
 */
 
 #include<iostream>
