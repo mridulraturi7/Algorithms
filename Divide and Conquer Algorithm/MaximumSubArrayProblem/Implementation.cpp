@@ -1,5 +1,10 @@
 /*
     Maximum SubArray Problem.
+
+    Problem Statement : Given an array containing positive and negative integers, find the maximum
+    subarray sum.
+
+    Time Complexity - O(n * logn)
 */
 
 #include<iostream>
