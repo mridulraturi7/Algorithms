@@ -1,5 +1,7 @@
 /*
-    Power of a number.
+    Power of a number - Divide and Conquer Approach.
+
+    Time Complexity - O(n)
 */
 
 #include<iostream>
