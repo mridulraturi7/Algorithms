@@ -35,7 +35,7 @@ int findCrossSubArraySum(int array[], int l, int mid, int h)
         }
     }
 
-    return max(max(left_sum, right_sum), left_sum + right_sum);
+    return left_sum + right_sum;
 }
 
 int findMaxSubArraySum(int array[], int l, int h)
