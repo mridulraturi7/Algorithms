@@ -4,7 +4,7 @@
     Time Complexity - O(n)
 
     **There is a problem with this approach i.e., the subproblem findPower(int, int) is getting computed
-    two times at each recursive call. 
+    twice for each recursive call. 
 */
 
 #include<iostream>
