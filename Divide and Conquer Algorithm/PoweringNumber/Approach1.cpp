@@ -1,5 +1,5 @@
 /*
-    Powering a Number.
+    Powering a Number - Iterative Approach.
 */
 
 #include<iostream>
