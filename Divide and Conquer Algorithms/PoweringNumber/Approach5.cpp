@@ -1,5 +1,5 @@
 /*
-    Power of a number - That works for float base and negative exponents.
+    Power of a number - That can work for float base and negative exponents.
 
     Time Complexity - O(logn)
 */
