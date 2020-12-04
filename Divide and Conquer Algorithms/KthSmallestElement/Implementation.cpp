@@ -4,7 +4,7 @@
     A basic approach is to perform merge sort and then access the kth element of the array which will take
     O(n * logn) time.
 
-    TIme Complexity:
+    Time Complexity:
         Worst Case: O(n*n)
         Average Case: O(n)
 */
