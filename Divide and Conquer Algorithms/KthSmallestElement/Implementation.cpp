@@ -1,5 +1,11 @@
 /*
-    Kth smallest element.
+    Kth smallest element - Quick Sort Approach.
+
+    
+
+    TIme Complexity:
+        Worst Case: O(n*n)
+        Average Case: O(n)
 */
 
 #include<iostream>
