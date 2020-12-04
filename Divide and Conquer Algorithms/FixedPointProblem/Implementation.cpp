@@ -17,12 +17,12 @@ int findFixedPoint(int array[], int low, int high)
             return mid;
         }
 
-        else if(mid > array[mid])
+        else if(mid > array[mid]) //If index is greater than value at index, then fixed point will be in right side, if present.
         {
             low = mid + 1;
         }
 
-        else
+        else                    //Else fixed point will be in left side.
         {
             high = mid - 1;
         }
