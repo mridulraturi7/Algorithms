@@ -1,7 +1,8 @@
 /*
     Kth smallest element - Quick Sort Approach.
 
-    
+    A basic approach is to perform merge sort and then access the kth element of the array which will take
+    O(n * logn) time.
 
     TIme Complexity:
         Worst Case: O(n*n)
