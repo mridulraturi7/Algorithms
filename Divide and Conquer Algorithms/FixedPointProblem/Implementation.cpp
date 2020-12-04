@@ -1,5 +1,10 @@
 /*
     Fixed Point Problem.
+
+    Problem Statement: Fiven an array sorted in ascending order, find the fixed point in the array.
+    A fixed point is an index at which index becomes equal to the value at the index.
+
+    Time Complexity - O(logn)
 */
 
 #include<iostream>
