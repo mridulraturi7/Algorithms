@@ -38,7 +38,7 @@ int main()
     cin>>n;
 
     int *array = new int[n];
-    cout<<"Enter the array elemnts in sorted order.";
+    cout<<"Enter the array elemnts in sorted order: ";
     for(int i = 0; i < n; i++)
     {
         cin>>array[i];
