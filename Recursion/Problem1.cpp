@@ -8,15 +8,13 @@ using namespace std;
 
 void printNos(int n)
 {
-    static int count = 0;
-
     if(n == 0)
     {
         return;
     }
 
-    cout<<++count<<" ";
     printNos(n - 1);
+    cout<<n<<" ";
 }
 
 int main()
@@ -30,6 +28,8 @@ int main()
         cin>>n;
 
         printNos(n);
+
+        cout<<endl;
     }
 
     return 0;
