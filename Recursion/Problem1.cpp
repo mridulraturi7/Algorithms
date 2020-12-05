@@ -6,6 +6,19 @@
 
 using namespace std;
 
+void printNos(int n)
+{
+    static int count = 0;
+
+    if(n == 0)
+    {
+        return;
+    }
+
+    cout<<++count<<" ";
+    printNos(n - 1);
+}
+
 int main()
 {
     int testCase;
