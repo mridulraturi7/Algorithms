@@ -1,5 +1,8 @@
 /*
     Number of Paths.
+    This problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/number-of-paths0926/1/?category[]=Recursion&difficulty[]=-1&page=1&query=category[]Recursiondifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
