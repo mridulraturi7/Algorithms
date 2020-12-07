@@ -9,14 +9,15 @@ using namespace std;
 class Solution
 {
     public:
+
+        long long moves = 0;
+
         long long toh(int N, int from, int to, int aux)
         {
             if(N <= 0)
             {
                 return 0;
             }
-
-            static long long moves = 0;
 
             moves++;
 
