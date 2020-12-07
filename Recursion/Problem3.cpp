@@ -39,6 +39,8 @@ int main()
 
     while(testCase-- != 0)
     {
+        long long moves;
+
         int n;
         cin>>n;
 
