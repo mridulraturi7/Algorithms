@@ -20,9 +20,9 @@ class Solution
 
             moves++;
 
-            toh(N - 1, 1, 2, 3);
+            toh(N - 1, from, aux, to);
             cout<<"move disk "<<N<<" from rod "<<from<<" to rod "<<to<<endl;
-            toh(N - 1, 2, 3, 1);
+            toh(N - 1, aux, to, from);
 
             return moves;
         }
