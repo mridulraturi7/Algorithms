@@ -46,7 +46,9 @@ int main()
 
         Solution ob;
 
-        cout<<ob.toh(n, 1, 3, 2)<<endl;
+        moves = ob.toh(n, 1, 3, 2);
+
+        cout<<moves<<endl;
     }
 
     return 0;
