@@ -2,6 +2,7 @@
     Tower of Hanoi.
     This problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/0/?category[]=Recursion&difficulty[]=-1&page=1&query=category[]Recursiondifficulty[]-1page1#
+    Difficulty - Basic
 */
 
 #include<iostream>
