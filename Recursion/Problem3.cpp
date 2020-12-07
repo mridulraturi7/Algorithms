@@ -12,7 +12,6 @@ using namespace std;
 class Solution
 {
     public:
-
         long long moves = 0;
 
         long long toh(int N, int from, int to, int aux)
